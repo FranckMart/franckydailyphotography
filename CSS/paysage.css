@@ -1,0 +1,271 @@
+#content_hero {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    z-index: 1;
+}
+
+.content_hero_pic {
+    position: relative;
+    width: 100%;
+    padding: 5%;
+    z-index: 1;
+}
+
+.content_hero_pic img {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    max-height: 518.4px;
+}
+
+
+.content_hero_text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+#content_presentation_portfolio {
+    width: 100%;
+    display: flex;
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.content_presentation_left {
+    width: 50%;
+}
+
+.content_presentation_left>h2 {
+    text-align: center;
+}
+
+.content_presentation_right {
+    width: 50%;
+    padding: 2%;
+}
+
+.content_presentation_right img {
+    width: 100%;
+    height: 100%;
+    max-height: 323.567px;
+}
+
+
+#content_picture {
+    width: 100%;
+}
+
+.container {
+    margin-top: 15%;
+    max-width: 100%;
+    padding: 0;
+}
+
+.col-2,
+.col-4,
+.col-5,
+.col-8,
+.col {
+    padding: 0;
+    max-height: 70%;
+}
+
+.col-2 img,
+.col-4 img,
+.col-5 img,
+.col-8 img,
+.col img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    max-height: 70%;
+
+}
+
+.col-2 img:hover,
+.col-4 img:hover,
+.col-5 img:hover,
+.col-8 img:hover,
+.col img:hover {
+
+    opacity: 1;
+    z-index: 100;
+    transition: all 600ms ease-in;
+    transform: scale(1.025);
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:landscape) {
+    /* iPad landscape style here */
+    #content_hero {
+
+        width: 95%;
+
+    }
+
+    .content_hero_pic {
+
+        padding: 3.5%;
+    }
+
+    .content_hero_pic img {
+
+        max-height: 400px;
+    }
+
+
+    .content_hero_text {
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        text-align: center;
+    }
+
+    #content_presentation_portfolio {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .content_presentation_left {
+        width: 100%;
+        padding: 4%;
+    }
+
+
+    .content_presentation_right {
+        width: 100%;
+        
+    }
+
+    .content_presentation_right img {
+        width: 75%;
+        height: 100%;
+        max-width: 615px;
+        margin: auto;
+        display: block;
+
+    }
+
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:portrait) {
+    #content_hero {
+
+        width: 95%;
+
+    }
+
+    .content_hero_pic {
+
+        padding: 3.5%;
+    }
+
+    .content_hero_pic img {
+
+        max-height: 400px;
+    }
+
+
+    .content_hero_text {
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        text-align: center;
+    }
+
+    #content_presentation_portfolio {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .content_presentation_left {
+        width: 100%;
+        text-align: center;
+        padding: 4%;
+    }
+
+
+    .content_presentation_right {
+        width: 100%;
+        padding: 4%;
+    }
+
+    .content_presentation_right img {
+        width: 75%;
+        height: 100%;
+        max-height: 225px;
+        margin: auto;
+        display: block;
+
+    }
+
+
+    /* iPad portrait style here */
+}
+
+@media screen and (max-width:480px) {
+
+    #content_hero {
+
+        width: 95%;
+
+    }
+
+    .content_hero_pic {
+
+        padding: 3.5%;
+    }
+
+    .content_hero_pic img {
+
+        max-height: 300px;
+    }
+
+
+    .content_hero_text {
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        text-align: center;
+    }
+
+    #content_presentation_portfolio {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .content_presentation_left {
+        width: 100%;
+        padding: 4%;
+        text-align: center;
+    }
+
+
+    .content_presentation_right {
+        width: 100%;
+        padding: 4%;
+
+    }
+
+    .content_presentation_right img {
+        width: 100%;
+        height: 80%;
+        max-height: 225px;
+    }
+
+
+}
