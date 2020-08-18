@@ -12,6 +12,7 @@ $("#content_header").hover(function () {
 
 })
 
+/*
 if (($largeur_fenetre <= 480) || ($largeur_fenetre >= 768 && $largeur_fenetre <= 1024)) {
     $("#logo_text").click(function () {
 
@@ -110,4 +111,4 @@ if (($largeur_fenetre <= 480) || ($largeur_fenetre >= 768 && $largeur_fenetre <=
                         }
                     })
                 }
-                    
+                    */

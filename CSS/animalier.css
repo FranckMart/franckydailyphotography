@@ -1,3 +1,5 @@
+
+
 #content_hero {
     position: relative;
     width: 100%;
@@ -5,17 +7,14 @@
 }
 
 .content_hero_pic {
-    position: relative;
     width: 100%;
-
 }
 
 .content_hero_pic img {
-    position: relative;
     width: 100%;
     height: 100%;
     opacity: 0.8;
-    max-height: 700px;
+    max-height: 750px;
 }
 
 
@@ -24,7 +23,6 @@
     top: 45%;
     width: 100%;
     text-align: center;
-    z-index: 1;
 }
 
 #content_presentation_portfolio {
@@ -74,7 +72,6 @@
     text-align: center;
 }
 
-
 .container {
     margin-top: 15%;
     max-width: 100%;
@@ -87,20 +84,39 @@
 .col-8,
 .col {
     padding: 0;
-    max-height: 250px;
+    
+}
+
+.row_top{
+    height: 250px;
+}
+
+.row_middle{
+    
+    height: 320px;
+    
+}
+
+.row_middle > .col-5 img,.row_middle .col img{
+    width: 100%;
+    height: 320px;
+    
+}
+
+.row_bottom{
+    height: 250px;
 }
 
 .col-2 img,
 .col-4 img,
-.col-5 img,
 .col-8 img,
 .col img {
     width: 100%;
-    height: 100%;
+    height: 250px;
     opacity: 0.6;
-    max-height: 250px;
 
 }
+
 
 .col-2 img:hover,
 .col-4 img:hover,
@@ -116,6 +132,7 @@
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:landscape) {
+
     /* iPad landscape style here */
     #content_hero {
 
@@ -156,7 +173,7 @@
 
     .content_presentation_right {
         width: 100%;
-        
+
     }
 
     .content_presentation_right img {
@@ -167,6 +184,7 @@
         display: block;
 
     }
+
     .row_top{
         height: 105px;
     }
@@ -251,6 +269,7 @@
         display: block;
 
     }
+
     .row_top{
         height: 105px;
     }
@@ -364,5 +383,6 @@
         opacity: 0.6;
     
     }
+
 
 }
