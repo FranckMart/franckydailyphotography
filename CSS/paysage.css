@@ -116,6 +116,7 @@
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:landscape) {
+
     /* iPad landscape style here */
     #content_hero {
 
@@ -156,7 +157,7 @@
 
     .content_presentation_right {
         width: 100%;
-        
+
     }
 
     .content_presentation_right img {
@@ -166,34 +167,6 @@
         margin: auto;
         display: block;
 
-    }
-    .row_top{
-        height: 105px;
-    }
-    
-    .row_middle{
-        
-        height: 105px;
-        
-    }
-    
-    .row_middle > .col-5 img, .row_middle .col img {
-        width: 100%;
-        height: 105px;
-    }
-    
-    .row_bottom{
-        height: 105px;
-    }
-    
-    .col-sm-2 img,
-    .col-sm-4 img,
-    .col-sm-8 img,
-    .col img {
-        width: 100%;
-        height: 105px;
-        opacity: 0.6;
-    
     }
 
 
@@ -250,34 +223,6 @@
         margin: auto;
         display: block;
 
-    }
-    .row_top{
-        height: 105px;
-    }
-    
-    .row_middle{
-        
-        height: 105px;
-        
-    }
-    
-    .row_middle > .col-5 img, .row_middle .col img {
-        width: 100%;
-        height: 105px;
-    }
-    
-    .row_bottom{
-        height: 105px;
-    }
-    
-    .col-sm-2 img,
-    .col-sm-4 img,
-    .col-sm-8 img,
-    .col img {
-        width: 100%;
-        height: 105px;
-        opacity: 0.6;
-    
     }
 
 
@@ -361,8 +306,136 @@
     .col img {
         width: 100%;
         height: 105px;
-        opacity: 0.6;
+        opacity: 1;
+    
+    }
+
+}@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:landscape) {
+
+    /* iPad landscape style here */
+    #content_hero {
+
+        width: 95%;
+
+    }
+
+    .content_hero_pic {
+
+        padding: 3.5%;
+    }
+
+    .content_hero_pic img {
+
+        max-height: 400px;
+    }
+
+
+    .content_hero_text {
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        text-align: center;
+    }
+
+    #content_presentation_portfolio {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .content_presentation_left {
+        width: 100%;
+        padding: 4%;
+    }
+
+
+    .content_presentation_right {
+        width: 100%;
+
+    }
+
+    .content_presentation_right img {
+        width: 75%;
+        height: 100%;
+        max-width: 615px;
+        margin: auto;
+        display: block;
+
+    }
+    .col-sm-2 img,
+    .col-sm-4 img,
+    .col-sm-8 img,
+    .col img {
+       
+        opacity: 1;
     
     }
 
 }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:portrait) {
+    #content_hero {
+
+        width: 95%;
+
+    }
+
+    .content_hero_pic {
+
+        padding: 3.5%;
+    }
+
+    .content_hero_pic img {
+
+        max-height: 400px;
+    }
+
+
+    .content_hero_text {
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        text-align: center;
+    }
+
+    #content_presentation_portfolio {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .content_presentation_left {
+        width: 100%;
+        text-align: center;
+        padding: 4%;
+    }
+
+
+    .content_presentation_right {
+        width: 100%;
+        padding: 4%;
+    }
+
+    .content_presentation_right img {
+        width: 75%;
+        height: 100%;
+        max-height: 225px;
+        margin: auto;
+        display: block;
+
+    }
+
+    .col-sm-2 img,
+    .col-sm-4 img,
+    .col-sm-8 img,
+    .col img {
+        
+        opacity: 1;
+    
+    }
+
+    /* iPad portrait style here */
+}
+

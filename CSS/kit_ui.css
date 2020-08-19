@@ -50,6 +50,7 @@ p {
 }
 
 a {
+    margin: 0;
     font-size: 2rem;
     text-decoration: none;
     font-family: 'yellowtail', sans-serif;
