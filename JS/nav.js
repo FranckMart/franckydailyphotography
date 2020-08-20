@@ -12,6 +12,11 @@ $("#content_header").hover(function () {
 
 })
 
+$(".show_more").click(function(){
+    
+    $("#content_hover_presentation").css("display","none")
+    
+})
 /*
 if (($largeur_fenetre <= 480) || ($largeur_fenetre >= 768 && $largeur_fenetre <= 1024)) {
     $("#logo_text").click(function () {
