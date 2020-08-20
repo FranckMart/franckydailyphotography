@@ -242,6 +242,202 @@ header {
 }
 
 
+@media only screen and (min-width : 1824px) {
+    /* Styles pour cette Media Queries */
+
+    .animalier_nav {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+    
+    .portrait_nav {
+        position: absolute;
+        top: 80%;
+        right: 10%;
+    }
+    
+    .lien_acceuil {
+        color: black;
+        font-size: 1.5rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    .animalier_nav:hover,
+    .portrait_nav:hover,
+    .paysage_nav:hover,
+    .contact_nav:hover {
+        border-radius: 40%;
+        box-shadow: 2px 2px 2px 2px white;
+        transition: all 400ms ease-in;
+        transform: scale(1.08);
+    }
+    
+    .paysage_nav {
+    
+        position: absolute;
+        top: 50%;
+        left: 26%;
+    }
+    
+    .contact_nav {
+    
+        position: absolute;
+        top: 40%;
+        right: 10%;
+    }
+    #content_header {
+       
+        width: 4.2%;
+        height: 100%;
+        
+    }
+    #content_header:hover {
+      
+        height: 295px;
+       
+    
+    }
+    
+    }
+
+    @media only screen and (min-width : 1224px){
+        /* Styles pour cette Media Queries */
+        .animalier_nav {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+        }
+        
+        .portrait_nav {
+            position: absolute;
+            top: 80%;
+            right: 10%;
+        }
+        
+        .lien_acceuil {
+            color: black;
+            font-size: 1.5rem;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        
+        .animalier_nav:hover,
+        .portrait_nav:hover,
+        .paysage_nav:hover,
+        .contact_nav:hover {
+            border-radius: 40%;
+            box-shadow: 2px 2px 2px 2px white;
+            transition: all 400ms ease-in;
+            transform: scale(1.08);
+        }
+        
+        .paysage_nav {
+        
+            position: absolute;
+            top: 50%;
+            left: 26%;
+        }
+        
+        .contact_nav {
+        
+            position: absolute;
+            top: 40%;
+            right: 10%;
+        }
+        #content_header {
+           
+            width: 5.5%;
+            height: 100%;
+            
+        }
+        #content_header:hover {
+          
+            height: 225px;
+           
+        
+        }
+        
+        }
+    
+    
+
+    @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+
+
+        #content_header {
+
+            position: absolute;
+            z-index: 10;
+            top: 0;
+            right: 0;
+            -webkit-clip-path: circle(100% at 100% 0);
+            clip-path: circle(100% at 100% 0);
+            background-color: #e72727;
+            width: 6%;
+            height: 95%;
+            transition: all 600ms ease-in;
+        
+        }
+
+        .animalier_nav {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+        }
+        
+        .portrait_nav {
+            position: absolute;
+            top: 70%;
+            right: 10%;
+        }
+        
+        .lien_acceuil {
+            color: black;
+            font-size: 1.5rem;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        
+        .animalier_nav:hover,
+        .portrait_nav:hover,
+        .paysage_nav:hover,
+        .contact_nav:hover {
+            border-radius: 40%;
+            box-shadow: 2px 2px 2px 2px white;
+            transition: all 400ms ease-in;
+            transform: scale(1.08);
+        }
+        
+        .paysage_nav {
+        
+            position: absolute;
+            top: 45%;
+            left: 26%;
+        }
+        
+        .contact_nav {
+        
+            position: absolute;
+            top: 40%;
+            right: 10%;
+        }
+        
+        #content_header:hover {
+            z-index: 10;
+            -webkit-clip-path: circle(90% at 100 0%);
+            clip-path: circle(90% at 100 0%);
+            background-color: rgb(230, 139, 21);
+            width: 15.5%;
+            height: 200px;
+            transition: all 600ms ease-in;
+        }
+        
+        
+    }
+
+
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:landscape) {
 
     /* iPad landscape style here */
