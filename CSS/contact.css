@@ -33,3 +33,38 @@
    height: 100%;
    opacity: 0.6;
 }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:landscape) {
+
+    
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:portrait) {
+    
+    .content_img{
+        display: none;
+    }
+    body{
+        background: url(../photo/portrait_plage_cagnes\ copie.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    /* iPad portrait style here */
+}
+
+@media screen and (max-width:480px) {
+
+    .content_img{
+        display: none;
+    }
+    body{
+    background: url(../photo/portrait_plage_cagnes\ copie.jpg)  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+}
